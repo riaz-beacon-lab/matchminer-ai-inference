@@ -14,3 +14,5 @@ site/
 .DS_Store
 **/.DS_Store
 interactive/
+.mmai_cache/
+scratch/

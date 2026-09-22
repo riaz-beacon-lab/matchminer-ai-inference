@@ -38,13 +38,15 @@ dependencies = [
   "pyyaml>=6.0",
   "sentence-transformers>=5.4.1",
   "torch>=2.11.0",
-  "vllm>=0.20.2",
   "huggingface_hub>=1.14.0",
   "openai>=2.8.0",
   "transformers>=5.8.0",
 ]
 
 [project.optional-dependencies]
+vllm = [
+  "vllm>=0.20.2",
+]
 dev = [
   "pre-commit>=3.7",
   "pytest>=8.0",
