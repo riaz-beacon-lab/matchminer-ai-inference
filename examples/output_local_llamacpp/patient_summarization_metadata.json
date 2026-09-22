@@ -1,0 +1,226 @@
+{
+  "package": {
+    "name": "matchminer-ai",
+    "version": "0.4.0"
+  },
+  "config_snapshot": {
+    "version": 0,
+    "debug_mode": false,
+    "model_metadata_cache_dir": ".mmai_cache/model_metadata",
+    "remote": {
+      "enabled": true,
+      "server_urls": [
+        "http://127.0.0.1:8081/v1"
+      ],
+      "max_concurrent_requests": 4,
+      "request_timeout": 1800,
+      "max_retries": 3,
+      "batch_size": 1000,
+      "retry_backoff_base": 1.0
+    },
+    "trial": {
+      "reasoning_parser": "auto",
+      "local": {
+        "model_name": "google/gemma-4-31B-it",
+        "engine": {
+          "max_model_len": 32768,
+          "tensor_parallel_size": 1,
+          "gpu_memory_utilization": 0.9,
+          "language_model_only": true
+        },
+        "chat_template_kwargs": {
+          "enable_thinking": true
+        },
+        "generation": {
+          "temperature": 1.0,
+          "top_p": 0.95,
+          "top_k": 20,
+          "min_p": 0.0,
+          "presence_penalty": 1.5,
+          "max_tokens": 20000,
+          "repetition_penalty": 1.0,
+          "skip_special_tokens": false
+        }
+      },
+      "remote": {
+        "model_name": "gemma-4-E2B-it",
+        "request_params": {
+          "max_tokens": 6000,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "presence_penalty": 0.0
+        },
+        "extra_body": {
+          "top_k": 1,
+          "min_p": 0.0,
+          "repetition_penalty": 1.05
+        }
+      },
+      "prompt_files": {
+        "primer": "trial.user.primer.txt",
+        "question": "trial.user.question.txt"
+      },
+      "boilerplate_marker": "Boilerplate exclusions"
+    },
+    "patient": {
+      "reasoning_parser": "auto",
+      "prompt_build_workers": 4,
+      "chunk_size": 24000,
+      "chunk_overlap": 500,
+      "prompt_margin_tokens": 6000,
+      "local": {
+        "model_name": "google/gemma-4-31B-it",
+        "engine": {
+          "max_model_len": 32768,
+          "tensor_parallel_size": 1,
+          "gpu_memory_utilization": 0.9,
+          "language_model_only": true
+        },
+        "chat_template_kwargs": {
+          "enable_thinking": true
+        },
+        "generation": {
+          "temperature": 0.0,
+          "top_k": 1,
+          "top_p": 1.0,
+          "presence_penalty": 0.0,
+          "min_p": 0.0,
+          "max_tokens": 20000,
+          "repetition_penalty": 1.1,
+          "skip_special_tokens": false
+        }
+      },
+      "remote": {
+        "model_name": "gemma-4-E2B-it",
+        "tokenizer_name": "google/gemma-4-31B-it",
+        "request_params": {
+          "max_tokens": 4000,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "presence_penalty": 0.0
+        },
+        "extra_body": {
+          "top_k": 1,
+          "min_p": 0.0,
+          "repetition_penalty": 1.05
+        }
+      },
+      "prompt_files": {
+        "primer": "patient.serial.user.primer.txt",
+        "question": "patient.serial.user.question.txt"
+      },
+      "boilerplate_marker": "Boilerplate conditions",
+      "text_token_threshold": 30000
+    },
+    "embedding": {
+      "model_path": "ksg-dfci/TrialSpace-0526",
+      "device": "cuda",
+      "prompt_file": "embedding.txt",
+      "max_seq_length": 2500
+    },
+    "match_quality": {
+      "model_name": "ksg-dfci/TrialChecker-0526",
+      "device": "cuda",
+      "prompt_file": "match_quality_checker_template.txt",
+      "max_length": 4096,
+      "score_cutoff": 0.2
+    },
+    "exclusion_criteria": {
+      "model_name": "ksg-dfci/BoilerplateChecker-0526",
+      "device": "cuda",
+      "prompt_file": "exclusion_criteria_checker_template.txt",
+      "max_length": 3192
+    },
+    "llm_match_quality": {
+      "reasoning_parser": "auto",
+      "local": {
+        "model_name": "google/gemma-4-31B-it",
+        "engine": {
+          "max_model_len": 32768,
+          "tensor_parallel_size": 1,
+          "gpu_memory_utilization": 0.9,
+          "language_model_only": true
+        },
+        "chat_template_kwargs": {
+          "enable_thinking": true
+        },
+        "generation": {
+          "temperature": 0.0,
+          "top_k": 1,
+          "top_p": 1.0,
+          "presence_penalty": 0.0,
+          "min_p": 0.0,
+          "max_tokens": 15000,
+          "repetition_penalty": 1.1,
+          "skip_special_tokens": false
+        }
+      },
+      "remote": {
+        "model_name": "gemma-4-E2B-it",
+        "request_params": {
+          "max_tokens": 1500,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "presence_penalty": 0.0
+        },
+        "extra_body": {
+          "top_k": 1,
+          "min_p": 0.0,
+          "repetition_penalty": 1.05
+        }
+      },
+      "prompt_file": "llm_match_quality.user.txt"
+    },
+    "llm_exclusion_criteria": {
+      "reasoning_parser": "auto",
+      "local": {
+        "model_name": "google/gemma-4-31B-it",
+        "engine": {
+          "max_model_len": 32768,
+          "tensor_parallel_size": 1,
+          "gpu_memory_utilization": 0.9,
+          "language_model_only": true
+        },
+        "chat_template_kwargs": {
+          "enable_thinking": true
+        },
+        "generation": {
+          "temperature": 0.0,
+          "top_k": 1,
+          "top_p": 1.0,
+          "presence_penalty": 0.0,
+          "min_p": 0.0,
+          "max_tokens": 20000,
+          "repetition_penalty": 1.1,
+          "skip_special_tokens": false
+        }
+      },
+      "remote": {
+        "model_name": "gemma-4-E2B-it",
+        "request_params": {
+          "max_tokens": 1500,
+          "temperature": 0.0,
+          "top_p": 1.0,
+          "presence_penalty": 0.0
+        },
+        "extra_body": {
+          "top_k": 1,
+          "min_p": 0.0,
+          "repetition_penalty": 1.05
+        }
+      },
+      "prompt_file": "llm_exclusion_criteria.user.txt"
+    },
+    "preset_name": "config_local_llamacpp.yaml",
+    "local": {}
+  },
+  "model_metadata": {
+    "patient_summarizer": {
+      "model_name": "gemma-4-E2B-it",
+      "model_sha": "openai-compatible-endpoint",
+      "created_at": "2026-09-22T15:43:10.737445+00:00",
+      "last_modified": "2026-09-22T15:43:10.737445+00:00",
+      "metadata_error": "401 Client Error. (Request ID: Root=1-6ab2a20e-2585d986397293f514cee5bc;6094b92b-8c56-4c77-a63f-2d317cd1d033)\n\nRepository Not Found for url: https://huggingface.co/api/models/gemma-4-E2B-it.\nPlease make sure you specified the correct `repo_id` and `repo_type`.\nIf you are trying to access a private or gated repo, make sure you are authenticated and your token has the required permissions.\nFor more details, see https://huggingface.co/docs/huggingface_hub/authentication\nInvalid username or password."
+    }
+  }
+}

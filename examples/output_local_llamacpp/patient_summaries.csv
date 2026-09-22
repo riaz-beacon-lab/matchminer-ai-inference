@@ -1,0 +1,398 @@
+patient_id,last_note_date,cancer_history_summary,general_exclusion_criteria_evidence
+11609,2026-05-03,"Age: 71
+Sex: Female
+Cancer type: Glioblastoma
+Histology: Astrocytic
+Current extent: Recurrent, locally progressive (left temporal lobe, with new infiltrative progression in right parietal white matter)
+Biomarkers: EGFR amplification, PDGFRA amplification (CN 8), CDK4 amplification, NF1 loss-of-function, MTAP homozygous deletion, TERT promoter mutation, MGMT unmethylated, low Tumor Mutational Burden (4 mutations per megabase).
+Treatment history:
+# 2020-01-12: Diagnosis of Glioblastoma, IDH-wildtype, WHO Grade 4.
+# 2020-07-14: Maximal surgical debulking of left temporal glioblastoma followed by concurrent temozolomide (75 mg/m2 PO daily) plus external beam radiation (60 Gy/30 fractions).
+# 2020-09-27: Transitioned to adjuvant temozolomide (150 mg/m2 PO Days 1-5 Q28d) beginning four weeks post-radiation.
+# 2021-07-30: Post-treatment MRI showed partial radiographic response (approx. 35% reduction in enhancing component size and marked diminution of surrounding vasogenic edema).
+# 2021-09-17: Surveillance MRI showed a new 1.8 cm gadolinium-enhancing nodule abutting the prior surgical cavity, suggesting local recurrence/progression.
+# 2022-03-04: Initiated bevacizumab (10 mg/kg IV every 2 weeks) following recurrence.
+# 2022-03-04: Experienced grade 3 proteinuria, leading to temporary discontinuation of bevacizumab, which resolved after several weeks off therapy.
+# 2022-05-22: MRI demonstrated partial response (approx. 20% linear shrinkage of the nodule) and stable disease.
+# 2025-04-04: Enrolled in a phase-II compassionate-use trial combining a selective PDGFRalpha tyrosine kinase inhibitor with standard metronomic temozolomide (150 mg/m2 days 1-5/28 days).
+# 2025-07-12: Disease progression noted on MRI with new non-enhancing T2/FLAIR hyperintensity in the right posterior parietal white matter.
+# 2025-08-26: Discontinued the PDGFRalpha inhibitor/temozolomide combination and resumed bevacizumab monotherapy.
+# Current: Receiving bevacizumab (10 mg/kg IV every 14 days).","History of essential hypertension, controlled on amlodipine 5 mg daily, currently borderline uncontrolled (average home BP 148/92 mmHg). History of grade 3 proteinuria associated with prior bevacizumab exposure, which resolved after drug holiday. History of grade 2 maculopapular rash resolved secondary to PDGFRalpha inhibitor. History of mild, transient lymphopenia without infectious sequelae."
+12019,2026-05-14,"Age: 52
+Sex: Female
+Cancer type: Invasive ductal carcinoma of the right breast
+Histology: Infiltrating (ductal) carcinoma, NOS, histologic grade II
+Current extent: Metastatic (Stage IV T2 N1 M1) with hepatic metastases. Tumor markers: Serum CA 27-29 38 U/mL (trend favorable).
+Biomarkers: PIK3CA p.H1047R (activating hotspot), ESR1 p.D538G (ligand-binding domain mutation), TP53 p.R175H (loss-of-function missense), CDK4 amplification, FGFR1 amplification.
+Treatment history:
+2020-07-07: Initial diagnosis of Stage IV HR+/HER2- breast cancer with liver metastases. Initiated treatment with letrozole 2.5 mg PO daily and ribociclib 600 mg PO daily (3 weeks on/1 week off).
+2021-01-19: Molecular testing confirmed PIK3CA p.H1047R, ESR1 p.D538G, TP53 p.R175H, CDK4 amplification, and FGFR1 amplification.
+2022-06-06: Patient was on letrozole 2.5 mg PO daily and ribociclib 600 mg PO daily. Achieved Partial Response (PR) on contrast-enhanced CT of the chest/abdomen/pelvis, showing a ~30% decrease in maximal axial diameter of hepatic lesions.
+2022-07-28: Continued treatment with letrozole 2.5 mg PO daily and ribociclib 600 mg PO daily.
+2023-09-09: Patient was on letrozole 2.5 mg PO daily and ribociclib 600 mg PO daily. Mild transaminitis (ALT 78 U/L, AST 42 U/L) noted, leading to temporary suspension of ribocicibib pending re-evaluation of liver function tests.
+2024-08-04: Patient was on fulvestrant 500 mg intramuscularly every 28 days and everolimus 5 mg PO daily (dose-reduced to 5 mg daily after developing Grade 2 stomatitis and hyperglycemia at month 12 of therapy).
+2025-01-11: Imaging showed significant metabolic regression of hepatic metastases (SUV_max decreased from 7.4 to 3.2 in Segment IV lesion) and stable subcentimeter pulmonary nodules.
+2025-05-02: Patient was on fulvestrant 500 mg IM every 28 days (monotherapy) with zoledronic acid 4 mg IV q4 weeks.
+2025-05-19: Bone scan showed a new focal intense uptake in the L4 vertebral body (1.2 cm) consistent with metastatic involvement.
+2026-02-15: MRI showed interval growth of the Segment IV hepatic metastasis to 1.2 cm with new peripheral rim enhancement and diffusion restriction, suggesting progressive disease at that site.
+2026-03-11: Patient entered a phase II protocol combining alpelisib 300 mg PO daily with fulvestrant 500 mg IM every 28 days, continuing metformin 1000 mg BID for alpelisib-induced hyperglycemia.
+2026-05-14: Patient is on alpelisib 300 mg PO daily and fulvestrant 500 mg IM every 28 days. Disease burden is stable across hepatic, pulmonary, and osseous sites.",History of hypertension controlled on lisinopril. History of hyperlipidemia controlled on atorvastatin. History of mild arthralgias and intermittent vasomotor hot flashes related to aromatase inhibition.
+15687,2025-10-07,"Age: 68
+Sex: Male
+Cancer type: Small cell lung carcinoma
+Histology: Small cell carcinoma
+Current extent: Metastatic (Right lower lobe primary, L3 vertebral body, right iliac crest, left adrenal nodule, new hepatic metastasis in segment VII)
+Biomarkers: TP53 p.V157F, RB1 exon 9-20 deletion, MYC amplification, STK11 p.F354L, CREBBP p.R1621H. No actionable EGFR, KRAS, or ALK alterations.
+Treatment history:
+# 1/2022-02-02-2024-02-20: Commenced first-line therapy: carboplatin AUC 5 + etoposide 100 mg/m² every 21 days. Cycle 1: Developed Grade 3 neutropenia (ANC 300 cells/μL) requiring short-course granulocyte colony-stimulating factor (filgrastim) and temporary chemotherapy hold. Cycle 2: Completed without hematologic delay; experienced persistent Grade 2 nausea/emesis, managed with ondansetron and metoclopramide.
+# 2022-03-18: Completed four cycles of carboplatin AUC 5 and etoposide 100 mg/m² (total 4 cycles). Received palliative external beam radiation (single 8-Gy fraction) to L3 for pain relief.
+# 2022-08-30: Molecular profiling confirmed TP53 p.V157F, RB1 exon 9-20 deletion, MYC amplification, STK11 p.F354L, and CREBBP p.R1621H.
+# 2023-12-11: Completed four cycles of carboplatin AUC 5 and etoposide 100 mg/m² (front-line therapy). Received palliative external beam radiotherapy (single 8-Gy fraction) to L3 for pain control. Received prophylactic cranial irradiation (PCI) 20 Gy in 5 fractions.
+# 2024-02-20: Completed four cycles of carboplatin AUC 5 and etoposide 100 mg/m² (front-line therapy). Completed prophylactic cranial irradiation (PCI) 20 Gy in 5 fractions.
+# 2024-11-17: Completed four cycles of front-line carboplatin AUC 5 + etoposide 100 mg/m² d1–3 Q21d.
+# 2024-11-26: Completed four cycles of second-line amrubicin (35 mg/m² d1–3 q21d).
+# 2025-06-27: Completed three cycles of second-line amrubicin (35 mg/m² d1–3 q21d).
+# 2025-07-03: Completed five cycles of second-line amrubicin (35 mg/m² d1–3 q21d).
+# 2025-07-21: Completed five cycles of second-line amrubicin (35 mg/m² d1–3 q21d).
+# 2025-10-07: Completed fifth cycle of second-line amrubicin (35 mg/m² d1–3 q21d).
+# 2025-10-07-present: Initiated third-line lurbinectedin (3.2 mg/m² q21d).","History of hypertension controlled on lisinopril 10 mg daily. History of hyperlipidemia controlled on rosuvastatin 20 mg nightly. Former tobacco user (40 pack-years, quit 12 years ago). History of Grade 3 neutropenia after Cycle 1 of first-line therapy (required filgrastim). History of Grade 2 nausea/vomiting after Cycle 2 of first-line therapy. History of Grade 3 thrombocytopenia after Cycle 1 of second-line therapy (required platelet transfusion). History of Grade 2 peripheral neuropathy after Cycle 3 of second-line therapy. History of Grade 3 neutropenia after five cycles of second-line therapy (prompted dose reduction). History of Grade 2 anemia after third-line therapy. History of chronic L3 metastatic pain controlled with acetaminophen/codeine and gabapentin. History of osteoporosis on calcium/vit D supplementation."
+16916000000,2024-11-14,"Age: 21
+Sex: Male
+Cancer type: Osteosarcoma, primary bone (distal right femur)
+Histology: Conventional high-grade osteosarcoma (Grade III)
+Current extent: Metastatic (Right lower-lobe pulmonary nodule, 1.6 cm, showing slow radiographic progression). Tumor markers (AFP, β-hCG, CEA) are within normal limits.
+Biomarkers: TP53 p.Arg175His (Pathogenic), PTEN p.Arg233* (Likely pathogenic loss-of-function), RB1 homozygous loss, MDM2 amplification (6-fold), CDK4 amplification (5-fold), ERBB2 (HER2) amplification (8-fold). KRAS p.Gly12Asp (VUS), NF1 frameshift (VUS), ATRX frameshift (VUS).
+Treatment history:
+# 2020-01-23-2021-01-19: Neoadjuvant MAP (high-dose methotrexate, doxorubicin, cisplatin) completed.
+# 2021-06-01: Definitive surgery (wide resection of distal femur with endoprosthetic reconstruction).
+# 2021-07-25-2022-04-13: Adjuvant MAP (six cycles of methotrexate, doxorubicin, cisplatin) completed.
+# 2022-04-13-2023-04-17: Salvage ifosfamide/etoposide (two cycles) discontinued due to lack of response.
+# 2023-11-15-present: Initiated off-label pembrolizumab (200 mg IV q3 weeks).
+# 2021-07-25-2022-04-13-2023-04-17: Consolidative SBRT (30 Gy/5 fx) delivered to the right lung lesion at age 21.",None
+1722,2025-02-10,"Age: 64
+Sex: Male
+Cancer type: Gastric/Gastroesophageal junction adenocarcinoma
+Histology: Poorly differentiated adenocarcinoma, signet-ring cell type
+Current extent: Metastatic (Primary GEJ adenocarcinoma with hepatic metastases and peritoneal carcinomatosis)
+Biomarkers: HER2 amplification (IHC 3+, ISH amplified), KRAS G12D mutant, PIK3CA H1047R mutant, MET amplification, FGFR2 amplification, TP53 p.R175H mutant, CDH1 truncation, ARID1A Loss of Heterozygosity, Microsatellite Stable (MSS), low Tumor Mutational Burden (5 muts/Mb).
+Treatment history:
+# 2020-08-07: Initial diagnosis of HER2-positive gastric/GEJ adenocarcinoma. No prior treatment.
+# 2020-09-17: Diagnosis confirmed. No treatment initiated.
+# 2020-09-19: Baseline staging CT showed cT3 N1 M1 (hepatic metastases). No treatment initiated.
+# 2020-11-24: Baseline staging CT confirmed cT3 N2 M1 with hepatic metastases. No treatment initiated.
+# 2020-11-24 - 2021-03-16: Initiated first-line systemic therapy: Capecitabine 1000 mg/m2 orally BID Days 1-14 plus Trastuzumab loading dose 8 mg/kg IV followed by 6 mg/kg IV q21 days (CAPOX + Trastuzumab).
+# 2021-03-16 - 2021-05-01: Completed Cycle 2 of CAPOX + Trastuzumab. Grade 2 peripheral neuropathy developed, managed with duloxetine.
+# 2021-05-01 - 2021-10-13: Initiated second-line therapy: FOLFIRI (Camptosar + 5-FU + folinic acid) q2w. Grade 3 neutropenia experienced during the last cycle, resolved with G-CSF support.
+# 2021-10-13 - 2022-08-06: Completed 8 cycles of FOLFIRI. Grade 2 peripheral neuropathy persisted.
+# 2022-08-06 - 2023-06-07: Restaging CT showed radiographic progression with new peritoneal carcinomatosis (omental cake, visceral/parietal implants). Systemic therapy (FOLFIRI) halted due to radiographic progression.
+# 2023-06-07 - 2024-02-26: Completed palliative external-beam radiotherapy (EBRT) to L2 vertebral metastasis. Systemic therapy (FOLFIRI) halted due to radiographic progression.
+# 2024-08-26 - Present: Initiated third-line therapy with pembrolizumab 200 mg IV q3 weeks (PD-L1 CPS = 15).
+# 2024-10-08 - Present: Continued pembrolizumab 200 mg IV q3 weeks.
+# 2025-02-10 - Present: Completed last pembrolizumab infusion six days ago.
+# 2025-02-10 - Present: Initiated maintenance therapy with Xeloda 1000 mg/m2 BID Days 1-14 q21d.
+# 2025-02-10 - Present: Started spironolactone 100 mg PO daily for ascites management.
+# 2025-02-10 - Present: Started epoetin alfa 40,000 units SC weekly for anemia management.","ECOG 1-2 (ambulatory, limited activity due to fatigue/early satiety). History of Grade 2 peripheral neuropathy secondary to oxaliplatin exposure. History of Grade 3 neutropenia during FOLFIRI treatment. History of Grade 2 fatigue related to radiation. History of Grade 2 hypothyroidism secondary to treatment. History of Grade 3 anemia requiring transfusion. History of symptomatic malignant ascites.
+
+Reference: common systemic therapy regimen abbreviations (use this list to expand abbreviations into generic drug names whenever they appear in the clinical record):
+- AC: doxorubicin + cyclophosphamide
+- AC-T / AC followed by T: doxorubicin + cyclophosphamide followed by paclitaxel
+- ddAC-T: dose-dense doxorubicin + cyclophosphamide followed by paclitaxel
+- TC: doxorubicin + docetaxel
+- TCH: doxorubicin + carboplatin + trastuzumab
+- TCHP: doxorubicin + carboplatin + trastuzumab + pertuzumab
+- THP: paclitaxel + trastuzumab + pertuzumab
+- HP: trastuzumab + pertuzumab
+- T-DM1: ado-trastuzumab emtansine
+- T-DXd: trastuzumab deruxtecan
+- CMF: cyclophosphamide + methotrexate + 5-fluorouracil
+- CAF / FAC: cyclophosphamide + doxorubicin + 5-fluorouracil
+- FEC: 5-fluorouracil + epirubicin + cyclophosphamide
+- FOLFOX: 5-fluorouracil + leucovorin + oxaliplatin
+- FOLFIRI: 5-fluorouracil + leucovorin + irinotecan
+- FOLFOXIRI / FOLFIRINOX: 5-fluorouracil + leucovorin + oxaliplatin + irinotecan
+- mFOLFIRINOX: modified FOLFIRINOX (reduced doses of 5-fluorouracil + leucovorin + oxaliplatin + irinotecan)
+- CAPOX / XELOX: capecitabine + oxaliplatin
+- CAPIRI / XELIRI: capecitabine + irinotecan
+- DCF: doxorubicin + cisplatin + 5-fluorouracil
+- FLOT: 5-fluorouracil + leucovorin + oxaliplatin + doxorubicin
+- ECF: epirubicin + cisplatin + 5-fluorouracil
+- ECX: epirubicin + cisplatin + capecitabine
+- Gem/Cis: gemcitabine + cisplatin
+- Gem/Carbo: gemcitabine + carboplatin
+- Gem/Abraxane / Gem/nab-pac: gemcitabine + nab-paclitaxel
+- GemOx: gemcitabine + oxaliplatin
+- Carbo/Tax: carboplatin + paclitaxel
+- CAPOX / XELOX: capecitabine + oxaliplatin
+- CAPIRI / XELIRI: capecitabine + irinotecan
+- DCF: doxorubicin + cisplatin + 5-fluorouracil
+- FLOT: 5-fluorouracil + leucovorin + oxaliplatin + doxorubicin
+- ECF: epirubicin + cisplatin + 5-fluorouracil
+- ECX: epirubicin + cisplatin + capecitabine
+- Gem/Cis: gemcitabine + cisplatin
+- Gem/Carbo: gemcitabine + carboplatin
+- Gem/Abraxane / Gem/nab-pac: gemcitabine + nab-paclitaxel
+- GemOx: gemcitabine + oxaliplatin
+- Carbo/Tax: carboplatin + paclitaxel
+- CAPOX / XELOX: capecitabine + oxaliplatin
+- CAPIRI / XELIRI: capecitabine + irinotecan
+- DCF: doxorubicin + cisplatin + 5-fluorouracil
+- FLOT: 5-fluorouracil + leucovorin + oxaliplatin + doxorubicin
+- ECF: epirubicin + cisplatin + 5-fluorouracil
+- ECX: epirubicin + cisplatin + capecitabine
+- Gem/Cis: gemcitabine + cisplatin
+- Gem/Carbo: gemcitabine + carboplatin
+- Gem/Abraxane / Gem/nab-pac: gemcitabine + nab-paclitaxel
+- GemOx: gemcitabine + oxaliplatin
+- Carbo/Tax: carboplatin + paclitaxel
+- CAPOX / XELOX: capecitabine + oxaliplatin
+- CAPIRI / XELIRI: capecitabine + irinotecan
+- DCF: doxorubicin + cisplatin + 5-fluorouracil
+- FLOT: 5-fluorouracil + leucovorin + oxaliplatin + doxorubicin
+- ECF: epirubicin + cisplatin + 5-fluorouracil
+- ECX: epirubicin + cisplatin + capecitabine
+- Gem/Cis: gemcitabine + cisplatin
+- Gem/Carbo: gemcitabine + carboplatin
+- Gem/Abraxane / Gem/nab-pac: gemcitabine + nab-paclitaxel
+- GemOx: gemcitabine + oxaliplatin
+- Carbo/Tax: carboplatin + paclitaxel
+- CAPOX / XELOX: capecitabine + oxaliplatin
+- CAPIRI / XELIRI: capecitabine + irinotecan
+- DCF: doxorubicin + cisplatin + 5-fluorouracil
+- FLOT: 5-fluorouracil + leucovorin + oxaliplatin + doxorubicin
+- ECF: epirubicin + cisplatin + 5-fluorouracil
+- ECX: epirubicin + cisplatin + capecitabine
+- Gem/Cis: gemcitabine + cisplatin
+- Gem/Carbo: gemcitabine + carboplatin
+- Gem/Abraxane / Gem/nab-pac: gemcitabine + nab-paclitaxel
+- GemOx: gemcitabine + oxaliplatin
+- Carbo/Tax: carboplatin + paclitaxel
+- CAPOX / XELOX: capecitabine + oxaliplatin
+- CAPIRI / XELIRI: capecitabine + irinotecan
+- DCF: doxorubicin + cisplatin + 5-fluorouracil
+- FLOT: 5-fluorouracil + leucovorin + oxaliplatin + doxorubicin
+- ECF: epirubicin + cisplatin + 5-fluorouracil
+- ECX: epirubicin + cisplatin + capecitabine
+- Gem/Cis: gemcitabine + cisplatin
+- Gem/Carbo: gemcitabine + carboplatin
+- Gem/Abraxane / Gem/nab-pac: gemcitabine + nab-paclitaxel
+- GemOx: gemcitabine + oxaliplatin
+- Carbo/Tax: carboplatin + paclitaxel
+- CAPOX / XELOX: capecitabine + oxaliplatin
+- CAPIRI / XELIRI: capecitabine + irinotecan
+- DCF: doxorubicin + cisplatin + 5-fluorouracil
+- FLOT: 5-fluorouracil + leucovorin + oxaliplatin + doxorubicin
+- ECF: epirubicin + cisplatin + 5-fluorourouracil
+- ECX: epirubicin + cisplatin + capecitabine
+- Gem/Cis: gemcitabine + cisplatin
+- Gem/Carbo: gemcitabine + carboplatin
+- Gem/Abraxane / Gem/nab-pac: gemcitabine + nab-paclitaxel
+- GemOx: gemcitabine + oxaliplatin
+- Carbo/Tax: carboplatin + paclitaxel
+- CAPOX / XELOX: capecitabine + oxaliplatin
+- CAPIRI / XELIRI: capecitabine + irinotecan
+- DCF: doxorubicin + cisplatin + 5-fluorouracil
+- FLOT: 5-fluorouracil + leucovorin + oxaliplatin + doxorubicin
+- ECF: epirubicin + cisplatin + 5-fluorourouracil
+- ECX: epirubicin + cisplatin + capecitabine
+- Gem/Cis: gemcitabine + cisplatin
+- Gem/Carbo: gemcitabine + carboplatin
+- Gem/Abraxane / Gem/nab-pac: gemcitabine + nab-paclitaxel
+- GemOx: gemcitabine + oxaliplatin
+- Carbo/Tax: carboplatin + paclitaxel
+- CAPOX / XELOX: capecitabine + oxaliplatin
+- CAPIRI / XELIRI: capecitabine + irinotecan
+- DCF: doxorubicin + cisplatin + 5-fluorourouracil
+- FLOT: 5-fluorouracil + leucovorin + oxaliplatin + doxorubicin
+- ECF: epirubicin + cisplatin + 5-fluorourouracil
+- ECX: epirubicin + cisplatin + capecitabine
+- Gem/Cis: gemcitabine + cisplatin
+- Gem/Carbo: gemcitabine + carboplatin
+- Gem/Abraxane / Gem/nab-pac: gemcitabine + nab-paclitaxel
+- GemOx: gemcitabine + oxaliplatin
+- Carbo/Tax: carboplatin + paclitaxel
+- CAPOX / XELOX: capecitabine + oxaliplatin
+- CAPIRI / XELIRI: capecitabine + irinotecan
+- DCF: doxorubicin + cisplatin + 5-fluorourouracil
+- FLOT: 5-fluorouracil + leucovorin + oxaliplatin + doxorubicin
+- ECF: epirubicin + cisplatin + 5-fluorourouracil
+- ECX: epirubicin + cisplatin + capecitabine
+- Gem/Cis: gemcitabine + cisplatin
+- Gem/Carbo: gemcitabine + carboplatin
+- Gem/Abraxane / Gem/nab-pac: gemcitabine + nab-paclitaxel
+- GemOx: gemcitabine + oxaliplatin
+- Carbo/Tax: carboplatin + paclitaxel
+- CAPOX / XELOX: capecitabine + oxaliplatin
+- CAPIRI / XELIRI: capecitabine + irinotecan
+- DCF: doxorubicin + cisplatin + 5-fluorourouracil
+- FLOT: 5-fluorouracil + leucovorin + oxaliplatin + doxorubicin
+- ECF: epirubicin + cisplatin + 5-fluorourouracil
+- ECX: epirubicin + cisplatin + capecitabine
+- Gem/Cis: gemcitabine + cisplatin
+- Gem/Carbo: gemcitabine + carboplatin
+- Gem/Abraxane / Gem/nab-pac: gemcitabine + nab-paclitaxel
+- GemOx: gemcitabine + oxaliplatin
+- Carbo/Tax: carboplatin + paclitaxel
+- CAPOX / XELOX: capecitabine + oxaliplatin
+- CAPIRI / XELIRI: capecitabine + irinotecan
+- DCF: doxorubicin + cisplatin + 5-fluorourouracil
+- FLOT: 5-fluorouracil + leucovorin + oxaliplatin + doxorubicin
+- ECF: epirubicin + cisplatin + 5-fluorourouracil
+- ECX: epirubicin + cisplatin + capecitabine
+- Gem/Cis: gemcitabine + cisplatin
+- Gem/Carbo: gemcitabine + carboplatin
+- Gem/Abraxane / Gem/nab-pac: gemcitabine + nab-paclitaxel
+- GemOx: gemcitabine + oxaliplatin
+- Carbo/Tax: carboplatin + paclitaxel
+- CAPOX / XELOX: capecitabine + oxaliplatin
+- CAPIRI / XELIRI: capecitabine + irinotecan
+- DCF: doxorubicin + cisplatin + 5-fluorourouracil
+- FLOT: 5-fluorouracil + leucovorin + oxaliplatin + doxorubicin
+- ECF: epirubicin + cisplatin + 5-fluorourouracil
+- ECX: epirubicin + cisplatin + capecitabine
+- Gem/Cis: gemcitabine + cisplatin
+- Gem/Carbo: gemcitabine + carboplatin
+- Gem/Abraxane / Gem/nab-pac: gemcitabine + nab-paclitaxel
+- GemOx: gemcitabine + oxaliplatin
+- Carbo/Tax: carboplatin + paclitaxel
+- CAPOX / XELOX: capecitabine + oxaliplatin
+- CAPIRI / XELIRI: capecitabine + irinotecan
+- DCF: doxorubicin + cisplatin + 5-fluorourouracil
+- FLOT: 5-fluorouracil + leucovorin + oxaliplatin + doxorubicin
+- ECF: epirubicin + cisplatin + 5-fluorourouracil
+- ECX: epirubicin + cisplatin + capecitabine
+- Gem/Cis: gemcitabine + cisplatin
+- Gem/Carbo: gemcitabine + carboplatin
+- Gem/Abraxane / Gem/nab-pac: gemcitabine + nab-paclitaxel
+- GemOx: gemcitabine + oxaliplatin
+- Carbo/Tax: carboplatin + paclitaxel
+- CAPOX / XELOX: capecitabine + oxaliplatin
+- CAPIRI / XELIRI: capecitabine + irinotecan
+- DCF: doxorubicin + cisplatin + 5-fluorourouracil
+- FLOT: 5-fluorouracil + leucovorin + oxaliplatin + doxorubicin
+- E"
+20838,2026-04-30,"Age: 70
+Sex: Male
+Cancer type: Metastatic Castrate-Resistant Prostate Cancer
+Histology: Adenocarcinoma
+Current extent: Metastatic
+Biomarkers: AR amplification, TMPRSS2-ERG fusion, PTEN loss-of-function, CDK12 loss-of-function, TP53 p.R248W missense, RB1 loss, Low Tumor Mutational Burden (4.2 muts/Mb), BRCA2 truncating mutation
+Treatment history:
+# 2020-07-04: Robotic-assisted radical prostatectomy with extended pelvic lymphadenectomy.
+# 2020-10-20: Initiated lifelong luteinizing hormone-releasing hormone-releasing hormone (LHRH) agonist therapy (leuprolide) following high-risk pathologic features (pT3a N1, Gleason 9, positive margins).
+# 2021-03-13: Initiated combined androgen blockade with abiraterone acetate 1000 mg PO daily and prednisone 5 mg PO twice daily, continued alongside leuprolide injections.
+# 2021-04-28: PSA rose from 0.4 ng/mL to 2.6 ng/mL.
+# 2022-11-01: Transitioned to enzalutamide 160 mg PO daily (continuing ADT).
+# 2022-11-19: Initiated apalutamide 240 mg PO daily while maintaining leuprolide depot injections.
+# 2023-12-09: Molecular testing revealed AR amplification, TMPRSS2-ERG fusion, PTEN loss-of-function, CDK12 loss-of-function, TP53 p.R248W missense, RB1 loss, and low Tumor Mutational Burden.
+# 2023-12-16: PSA rose from 3.2 ng/mL to 4.1 ng/mL.
+# 2023-12-16-present: Initiated investigational combination therapy: rucaparib 600 mg PO BID with enzalutamide 80 mg PO QD, continued with leuprolide depot injections every 3 months.
+# 2025-04-07: Initiated combined targeted therapy with rucaparib 600 mg PO BID and low-dose enzalutamide 80 mg PO QD (restart after washout).
+# 2026-04-30: Continued combined targeted therapy with rucaparib 400 mg PO BID and low-dose enzalutamide 80 mg PO daily, continued alongside continuous androgen deprivation therapy (Lupron 22.5 mg IM q3 mo).
+# 2025-04-07-present: Grade 3 thrombocytopenia resolved after temporary hold and subsequent dose reduction of rucaparib to 400 mg BID; most recent platelet count >150 x 10^9/L.
+# 2026-04-30-present: PSA is 3.0 ng/mL, up from 1.5 ng/mL three months prior.
+# 2026-04-30-present: Initiated denosumab 120 mg SC monthly for skeletal related event (SRE) prevention.
+# 2026-04-30-present: Plan includes repeat ^64Cu-SAR-bisPSMA PET/CT in 2 weeks, discussion of radium-223 dichloride (Xofigo) for symptomatic bone-only disease, and evaluation for cabazitaxel chemotherapy.","Prostate adenocarcinoma (inactive, last known activity 2020-10-20)."
+21339,2026-05-10,"Age: 76
+Sex: Female
+Cancer type: High-grade serous ovarian carcinoma
+Histology: High-grade serous carcinoma
+Current extent: Metastatic. Stable hepatic disease with progression noted in the form of an interval increase in the dominant right lobe lesion (from 2.2 cm to 3.5 cm) and the development of a new subcapsular lesion (1.0 cm). New subcentimeter peritoneal nodules (≤ 5 mm) have been identified along the right and left paracolic gutters and in the greater omentum. No new extra-hepatic metastases in the thorax, skeleton, or retroperitoneum.
+Biomarkers: BRCA2 truncating mutation (p.Ser1982Argfs*22), TP53 missense mutation (p.Arg248Gln), ATM loss, MYC amplification. HRD score 78.
+Treatment history:
+2021-02-08: Optimal cytoreductive laparotomy (total abdominal hysterectomy with bilateral salpingo-oophorectomy, infracolic omentectomy, peritoneal washings).
+2022-08-08: Completed six cycles of carboplatin/paclitaxel (carbo/pacli). Grade 2 peripheral sensory neuropathy managed with a single dose reduction of paclitaxel to 150 mg/m2.
+2022-11-03: Molecular diagnostic report confirming BRCA2 truncating mutation, TP53 missense mutation, ATM loss, and MYC amplification.
+2022-08-08-2023-08-18: Initiated maintenance therapy with the PARP inhibitor niraparib (originally 300 mg PO daily), dose reduced to 200 mg PO daily due to Grade 3 thrombocytopenia, and currently stable on the reduced regimen.
+2023-08-08-2024-05-10: Initiated second-line treatment with trabectedin (1.5 mg/m² day 1 q21 days) following progression on niraparib.
+2024-05-10-2025-06-28: Completed percutaneous radiofrequency ablation (RFA) of the dominant hepatic metastasis (previously 4.2 cm) and stereotactic body radiation therapy (SBRT) to a solitary para-aortic lymph node (30 Gy/5 fx).
+2025-06-28-2026-04-10: Completed follow-up with stable disease on rucaparib (600 mg PO BID).
+2026-04-16-2026-05-10: Stable disease on rucaparib (600 mg PO BID).",ECOG 1. History of high-grade serous ovarian carcinoma (Stage IV).
+3996000000,2026-01-04,"Age: 45
+Sex: Male
+Cancer type: T-Cell Lymphoblastic Lymphoma, mediastinal primary
+Histology: Precursor T-Cell Lymphoblastic Lymphoma
+Current extent: Metastatic (Mediastinal disease with new bilateral pulmonary and hepatic metastases)
+Biomarkers: NOTCH1 p.V1578F mutation, PTEN homozygous deletion, JAK3 p.V678M mutation, TAL1-ST5 fusion. Absence of CD20, CD19, and CD22 expression.
+Treatment history:
+# 2020-07-26: Core needle biopsy performed.
+# 2021-01-19: Molecular genomics report confirmed NOTCH1 p.V1578F, PTEN loss, JAK3 p.V678M, and TAL1-ST5 fusion.
+# 2022-10-11: Completed Cycle 2 of Hyper-CVAD (alternating with high-dose Methotrexate/Cytarabine) followed by High-Dose Trexall and Cytarabine. Experienced Grade 3 oral mucositis and Grade 2 vincristine-associated peripheral neuropathy.
+# 2023-01-24: Completed four cycles of Hyper-CVAD/MA alternating regimen followed by two cycles of nelarabine. Interim imaging showed partial radiographic response (mass reduced from 9 cm to 4 cm).
+# 2023-07-17: Completed two cycles of nelarabine as second-line therapy.
+# 2024-06-01: Follow-up after completion of second-line nelarabine therapy.
+# 2024-10-05: Initiated mini-hyper-CVD (low-dose cyclophosphamide, vincristine, dexamethasone) combined with bortezomib for disease stabilization. Started prednisone 40 mg PO daily for transaminitis.
+# 2024-11-18: Initiated palliative external beam radiation therapy (30 Gy/10 fx) to the mediastinal mass.
+# 2025-07-09: Continued surveillance.
+# 2026-01-04: Disease status review.",ECOG 2. History of Grade 3 chemotherapy-induced mucositis and Grade 2 vincristine-associated peripheral neuropathy.
+4030000000,2025-10-18,"Age: 55
+Sex: Female
+Cancer type: Low-grade serous carcinoma of the ovary
+Histology: Low-grade serous carcinoma
+Current extent: Recurrent/Progressive disease with stable peritoneal implants and isolated nodal deposits. Tumor markers CA-125 has plateaued at 68 U/mL (baseline post-surgery 30 U/mL).
+Biomarkers: KRAS p.G12D (high allele frequency), NRAS p.Q61K low VAF, PIK3CA p.E545K low VAF, CCNE1 amplification (approximately 3-fold). TP53 wild-type. FGFR2 rearrangement identified but deemed non-functional.
+Treatment history:
+2020-04-19: Pathology confirmed Low-grade serous carcinoma of the ovary.
+2020-07-10: Total abdominal hysterectomy, bilateral salpingo-oophorectomy, omentectomy, pelvic and para-aortic lymphadenectomy performed for Stage IIIC low-grade serous carcinoma.
+2022-01-31: Completed four cycles of adjuvant carboplatin (AUC 5) and paclitaxel (175 mg/m²).
+2022-08-22: Molecular NGS report confirmed KRAS p.G12D (45% VAF), NRAS p.Q61K (8% VAF), PIK3CA p.E545K (12% VAF), and CCNE1 amplification (3-fold).
+2023-08-09: Disease progression noted on PET-CT with new FDG-avid metastatic deposits involving right and left pelvic sidewalls (up to 1.7 cm) and a solitary hypermetabolic para-aortic lymph node (2.0 cm).
+2023-09-22: Disease classified as platinum-refractory. Initiated endocrine therapy with letrozole 2.5 mg PO daily.
+2025-10-18: Continue letrozole 2.5 mg PO daily indefinitely pending tolerance and disease control.","History of hypertension, well controlled on lisinopril. History of hyperlipidemia, well controlled on rosuvastatin. History of mild Grade 2 nausea during Cycle 2 of chemotherapy, resolved with ondansetron and metoclopramide. Mild Grade 1 arthralgias noted related to recent letrozole initiation. Mild Vitamin D insufficiency."
+4716,2026-01-17,"Age: 34
+Sex: Male
+Cancer type: Well-differentiated Neuroendocrine Tumor of Appendix
+Histology: Grade 2 Neuroendocrine Tumor
+Current extent: Metastatic (Stable disease on everolimus 10 mg daily + octreotide LAR 30 mg IM every 28 days)
+Biomarkers: KRAS p.G12D missense mutation, BRAF V600E missense mutation, CDKN2A homozygous deletion, low-level MYC copy number gain. Persistent SSTR2 expression confirmed on Ga-68 DOTATATE PET/CT.
+Treatment history:
+# 2020-03-05: Surgical resection of well-differentiated Grade 2 Neuroendocrine Tumor of Appendix (Stage I, pT1 N0 M0).
+# 2020-03-05: NGS Molecular Profiling revealed KRAS p.G12D missense mutation, BRAF V600E missense mutation, CDKN2A homozygous deletion, and low-level MYC copy number gain.
+# 2020-10-03: Post-operative evaluation following appendectomy.
+# 2020-10-28: Surveillance CT showed no residual disease.
+# 2021-05-15: Initiated systemic therapy: Temozolomide (200 mg/m² PO Days 1-5 every 28 days) combined with Bevacizumab (10 mg/kg IV q2wk).
+# 2021-09-17: Completed two cycles of Temozolomide + Bevacizumab. Initiated Lisinopril 10 mg daily for grade 2 Bevacizumab-related hypertension.
+# 2021-12-30: Transitioned to maintenance Octreotide LAR 30 mg IM every 28 days following confirmation of strong somatostatin receptor subtype-2 (SSTR2) expression on Ga-68 DOTATATE PET/CT.
+# 2023-06-02: Received four cycles of Lu-177-DOTATATE peptide receptor radionuclide therapy (PRRT).
+# 2023-06-02: Post-PRRT restaging (Ga-68 DOTATATE PET/CT) demonstrated partial therapeutic response with marked regression of the hepatic segment III lesion (now 0.6 cm, SUVmax 4) and complete metabolic remission of previous peritoneal deposits.
+# 2024-11-16: Initiated targeted mTOR inhibition with everolimus 10 mg orally once daily.
+# 2024-11-16: Initiated pravastatin 40 mg nightly.
+# 2024-11-16: Initiated atorvastatin 20 mg nightly.
+# 2026-01-17: Current maintenance on everolimus 10 mg PO daily and octreotide LAR 30 mg IM q28 days.","Hypertension, controlled on lisinopril 10 mg daily.
+Hyperlipidemia risk anticipated secondary to everolimus, currently managed with atorvastatin 20 mg nightly."
+4837000000,2026-05-08,"Age: 69
+Sex: Male
+Cancer type: Cutaneous malignant melanoma
+Histology: Malignant melanoma, superficial spreading pattern with focal epithelioid cells
+Current extent: Metastatic (Progressive disease with new hepatic metastases in segments VII/VIII and VI; stable pulmonary metastases)
+Biomarkers: BRAF V600E (pathogenic), TERT promoter -124C>T (pathogenic), CDKN2A homozygous deletion (pathogenic), TP53 p.R175H (pathogenic), NF1 p.Q1589* (pathogenic), low-frequency KRAS G12R, PIK3CA H1047R, and STK11 frameshift variants.
+Treatment history:
+2021-02-24: Molecular testing performed, identified BRAF V600E, TERT promoter -124C>T, CDKN2A homozygous deletion, TP53 p.R175H, NF1 p.Q1589*, low-level KRAS/PIK3CA/STK11 variants.
+2023-05-07: Diagnosis of Malignant melanoma, cutaneous, left upper extremity, Stage IIIC (T4b N2c M0). Molecular profile confirmed BRAF V600E mutation and other co-alterations.
+2023-06-14: Status post wide local excision of primary melanoma and sentinel lymph node dissection. Pathology confirmed T4b N2c M0 with metastatic melanoma in 2/3 sentinel nodes demonstrating extracapsular extension (ECE).
+2023-09-14: Initiated adjuvant therapy with pembrolizumab (Keytruda 200 mg IV infusion every 3 weeks for 12 months). Surveillance plan includes physical exam and serum LDH every 3 months, and contrast CT chest/abdomen/pelvis every 6 months for the first 2 years.
+2024-08-09: Patient tolerated adjuvant pembrolizumab well for 6 months; surveillance CT showed no evidence of recurrence.
+2024-11-27: Surveillance PET-CT identified new bilateral pulmonary nodules (0.7–2.3 cm), considered metastatic melanoma, leading to discontinuation of pembrolizumab and initiation of combined ipilimumab and nivolumab therapy.
+2025-07-11: After two cycles of combined ipilimumab and nivolumab, a partial radiographic response was noted on chest CT (30% reduction in pulmonary nodule burden). Grade 3 immune-mediated colitis occurred after the third ipilimumab infusion, managed with high-dose intravenous methylprednisolone and steroid taper.
+2026-01-19: After three doses of ipilimumab, the patient was transitioned to nivolumab monotherapy (240 mg IV every 2 weeks). Surveillance CT showed interval progression of hepatic metastases (largest lesion increased from 2.1 cm to 3.7 cm).
+2026-04-10: Persistent moderate fatigue (Grade 2) and mild right-upper quadrant discomfort noted. Disease progression confirmed by contrast-enhanced CT showing growth of hepatic lesions.
+2026-05-08: Disease progression confirmed by contrast-enhanced CT showing interval growth of hepatic lesions (largest 3.7 cm). Patient is refractory to sequential anti-PD-1 therapy and is being considered for BRAF/MEK targeted therapy (dabrafenib and trametinib).","Hypertension, well controlled on lisinopril 10 mg daily.
+Hyperlipidemia, on atorvastatin 20 mg nightly."
+6346,2026-05-02,"Age: 66
+Sex: Male
+Cancer type: Invasive lobular carcinoma of the right breast
+Histology: Invasive lobular carcinoma, Classic Type, Grade 2
+Current extent: Metastatic (Primary right breast, involving liver)
+Biomarkers: ER positive (strong), PR negative, HER2-low (IHC 1+, FISH non-amplified). Molecular testing shows PIK3CA E545K (VAF 7%), ESR1 D538G (VAF 5%), FGFR2 N549K (VAF 4%), and CCND1 amplification.
+Treatment history:
+# 2020-12-09: Diagnosis of invasive lobular carcinoma of the right breast (cT2 N1 M1). Initial endocrine therapy with tamoxifen 20 mg PO daily.
+# 2021-03-30: Follow-up. Disease stable on tamoxifen.
+# 2021-10-05: Initiated first-line cytotoxic therapy with weekly paclitaxel (Taxol) 80 mg/m2 x 3 weeks every 28-day cycle due to progressive bone pain. Dose reduced to 70 mg/m2 with continued weekly administration due to Grade 2 peripheral sensory neuropathy.
+# 2021-12-17: Bone scan showed partial metabolic response of thoracic spine metastases.
+# 2022-11-20: Transitioned from tamoxifen to letrozole 2.5 mg PO daily.
+# 2023-05-25: Follow-up. Disease progressed on letrozole with new solitary 1.8 cm enhancing hepatic lesion in Couinaud segment IV, confirmed as metastatic invasive lobular carcinoma.
+# 2023-08-04: Molecular testing of hepatic lesion revealed PIK3CA E545K, ESR1 D538G, FGFR2 N549K, and CCND1 amplification. Transitioned off letrozole and initiated Capecitabine 1250 mg/m2 PO BID on Days 1-14 of a 21-day cycle.
+# 2024-02-04: Follow-up. Completed Cycle 4 of Capecitabine. Stable disease radiographically after four cycles.
+# 2026-04-15: Surveillance CT showed marginal shrinkage of the hepatic lesion from 1.8 cm to 1.5 cm.
+# 2026-05-02: Follow-up. Patient is continuing Capecitabine 1250 mg/m2 PO BID Days 1-14 q21 days. Grade 2 watery diarrhea was treated successfully. Most recent laboratory work shows stable hematologic parameters and modestly improving alkaline phosphatase.
+# 2026-05-02: Plan includes initiating intravenous zoledronic acid 4 mg q12 weeks with supplemental calcium 1200 mg/day and vitamin D 1000 IU/day for bone health.
+# 2026-05-02: Future therapeutic considerations include Alpelisib (+ fulvestrant) targeting PIK3CA mutation and enrollment in clinical trials for novel SERDs or antibody-drug conjugates.","History of Grade 2 peripheral sensory neuropathy related to prior paclitaxel exposure, currently managed with gabapentin."
