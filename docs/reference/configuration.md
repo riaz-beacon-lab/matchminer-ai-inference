@@ -45,6 +45,28 @@ intermediate columns are retained in output tables.
 Directory path used by model metadata helpers to cache Hugging Face model
 metadata JSON files.
 
+## Returned Metadata
+
+Functions with `return_metadata=True` return the package version, resolved
+configuration snapshot, and model provenance collected by the package. Model
+metadata is keyed by the public operation that used the model:
+
+```json
+{
+  "model_metadata": {
+    "summarize_patients": {
+      "model_name": "organization/model",
+      "model_sha": "..."
+    }
+  }
+}
+```
+
+Model metadata is included only when the package loads the model directly. For
+HTTP inference, the requested model name remains in the task's `remote` config
+snapshot, but `model_metadata` has no entry for that operation because the
+package cannot verify the model behind the endpoint.
+
 ## `remote`
 
 Global transport settings used when `remote.enabled` is true and LLM tasks send
@@ -135,8 +157,7 @@ return no separate reasoning field.
 
 Task-specific remote chat completion request settings:
 
-- `model_name`: model name sent in OpenAI-compatible chat completion requests
-  and used for remote endpoint metadata.
+- `model_name`: model name sent in OpenAI-compatible chat completion requests.
 - `request_params`: top-level chat completion request fields sent as-is,
   including the output-token budget. Use `max_tokens` for vLLM and many
   compatible endpoints, or `max_completion_tokens` for endpoints that require
@@ -227,6 +248,14 @@ Runtime truncation cutoff for embedding inputs. `SentenceTransformer`
 uses this value during `encode()`, so inputs longer than this limit are
 truncated before embedding generation. QC reports use the same value when
 flagging summaries that exceed the embedding input limit.
+
+This value should match the `model_path` configured alongside it — it is
+specific to the embedding model in use, not a general-purpose default.
+Changing `embedding.model_path` to a different model without reviewing
+`max_seq_length` against that model's own native truncation cutoff (e.g.
+its `sentence_bert_config.json`) can silently truncate inputs at the wrong
+point, producing different embeddings than the model would otherwise
+produce for longer inputs.
 
 ## `match_quality`
 
